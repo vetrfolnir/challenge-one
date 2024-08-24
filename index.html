@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="assets/logo.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Decodificador de Texto</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="assets/logo.png" alt="logo">
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo_primario">
+            <textarea class="input" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+            <div class="alert&buttons">
+                <div class="alert_text">
+                    <h6> <img src="assets/alert_icon.svg" alt="icon"> Atenção: Apenas letras minúsculas e sem acento.</h6>
+                </div>
+                <div class="buttons">
+                    <button class="btn-cripto" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-descripto" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="conteudo_secundario">
+            <textarea class="mensagem" cols="20" rows="10"></textarea>
+            <button class="btn-copy">Copiar</button>
+            <!-- <img src="assets/illustration.svg" alt="Imagem" class="ilustracao">
+            <h2>Nenhuma mensagem encontrada.</h2>
+            <span>Digite um texto que você deseja criptografar ou descriptografar.</span> -->
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html> 

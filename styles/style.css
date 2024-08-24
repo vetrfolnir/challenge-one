@@ -1,0 +1,152 @@
+:root {
+    --background-color: #fcf9f8;
+    --primary-color: #b06e5f;
+    --text-color: #180e0c;
+    --secondary-color: #d1aaa0;
+    --disabled-color: #E0C1B9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    box-sizing: border-box;
+    margin-bottom: 120px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.conteudo_primario {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px 32px;
+    width: 749px;
+    height: 650px;
+    border: 1px solid var(--primary-color);
+    border-radius: 32px;
+    box-shadow: 0px 10px 10px 2px rgba(43, 16, 11, 0.1);
+}
+
+.input {
+    width: 685px;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    background-color: transparent;
+    color: var(--primary-color);
+    font-size: 32px;
+    padding: 10px;
+}
+
+.mensagem {
+    width: 336px;
+    border: none;
+    box-shadow: none;
+    outline: 0;
+    background-color: transparent;
+    color: var(--primary-color);
+    font-size: 32px;
+    padding: 10px;
+}
+
+.alert_text h6 {
+    color: var(--text-color);
+    font-size: 16px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.conteudo_secundario {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--primary-color);
+    border-radius: 32px;
+    width: 400px;
+    height: 650px;
+    padding: 32px 32px;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 10px 10px 2px rgba(43, 16, 11, 0.1);
+}
+
+.conteudo_secundario ilustracao {
+    max-width: 336px;
+    max-height: 304px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.conteudo_secundario h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--text-color);
+    width: 336px;
+}
+
+.conteudo_secundario span {
+    font-size: 16px;
+    text-align: center;
+    color: var(--text-color);
+    width: 304px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-descripto {
+    width: 328px;
+    height: 67px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--disabled-color);
+    color: var(--primary-color);
+    border-radius: 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-cripto {
+    width: 328px;
+    height: 67px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-copy {
+    width: 336px;
+    height: 67px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border-radius: 32px;
+    font-size: 16px;
+    cursor: pointer;
+}
