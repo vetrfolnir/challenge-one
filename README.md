@@ -21,3 +21,6 @@ As "chaves" de criptografia utilizadas foram:
     <img  alt="HTML" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
     <img  alt="CSS" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
+
+##
+![Badge](https://raw.githubusercontent.com/vetrfolnir/challenge-one/main/assets/Decodificador%20de%20texto.png)
