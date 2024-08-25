@@ -3,9 +3,7 @@
 
 Challenge da [Alura](www.alura.com.br) em colaboração com a Oracle Next Education concluído.
 
-### 🛠 Como Funciona
-
-O decodificador de texto funciona apenas com input em case minúscula e não aceita acentos gráficos.
+## 🛠 Como Funciona
 As "chaves" de criptografia utilizadas foram:
 - A letra **"e"** é convertida para **"enter"**
 - A letra **"i"** é convertida para **"imes"**
@@ -13,6 +11,10 @@ As "chaves" de criptografia utilizadas foram:
 - A letra **"o"** é convertida para **"ober"**
 - A letra **"u"** é convertida para **"ufat"**
 
+> [!Warning]  
+> O decodificador de texto funciona apenas com input em case minúscula e não aceita acentos gráficos.
+
+##
 <div>
      <h3>💻 Tecnologias</h3>
     <img  alt="Js" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
