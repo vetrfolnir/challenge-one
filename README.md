@@ -1,7 +1,7 @@
 ## 💬 Decodificador de Texto
 ![Thumbnail](https://raw.githubusercontent.com/vetrfolnir/challenge-one/main/assets/554132544.png)
 
-Challenge da [Alura](www.alura.com.br) em colaboração com a Oracle Next Education concluído.
+Challenge da [Alura](https://www.alura.com.br/) em colaboração com a Oracle Next Education concluído.
 
 ## 🛠 Como Funciona
 As "chaves" de criptografia utilizadas foram:
